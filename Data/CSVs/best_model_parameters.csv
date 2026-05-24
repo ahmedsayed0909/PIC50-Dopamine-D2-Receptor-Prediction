@@ -1,0 +1,4 @@
+,categorical_features,early_stopping,interaction_cst,l2_regularization,learning_rate,loss,max_bins,max_depth,max_features,max_iter,max_leaf_nodes,min_samples_leaf,monotonic_cst,n_iter_no_change,quantile,random_state,scoring,tol,validation_fraction,verbose,warm_start,alpha,ccp_alpha,criterion,init,min_impurity_decrease,min_samples_split,min_weight_fraction_leaf,n_estimators,subsample,bootstrap,max_samples,n_jobs,oob_score
+HistGB,from_dtype,auto,,0.0,0.2,squared_error,255,5,1.0,200,31,20,,10,,42,loss,1e-07,0.1,0,False,,,,,,,,,,,,,
+GBR,,,,,0.1,squared_error,,3,,,,1,,,,42,,0.0001,0.1,0,False,0.9,0.0,friedman_mse,,0.0,2,0.0,300,1.0,,,,
+RF,,,,,,,,20,1.0,,,1,,,,42,,,,0,False,,0.0,squared_error,,0.0,2,0.0,200,,True,,,False
